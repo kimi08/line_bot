@@ -41,7 +41,7 @@ def handle_message(event):
     
     r = "很抱歉,您說什麼"
 
-    if mag in ['hi', 'HI', 'Hi']:
+    if msg in ['hi', 'HI', 'Hi']:
         r = '嗨'
     elif msg == '你吃飯了嗎?':
         r = '還沒'
